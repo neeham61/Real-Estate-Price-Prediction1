@@ -1,0 +1,42 @@
+{
+  "best_model": "SVR",
+  "cv_mean_rmse": 7.333430462067656,
+  "cv_std_rmse": 2.1054687254638553,
+  "n_rows": 414,
+  "features": [
+    "X1 transaction date",
+    "X2 house age",
+    "X3 distance to the nearest MRT station",
+    "X4 number of convenience stores",
+    "X5 latitude",
+    "X6 longitude"
+  ],
+  "target": "Y house price of unit area",
+  "feature_ranges": {
+    "X1 transaction date": [
+      2012.667,
+      2013.583
+    ],
+    "X2 house age": [
+      0.0,
+      43.8
+    ],
+    "X3 distance to the nearest MRT station": [
+      23.38284,
+      6488.021
+    ],
+    "X4 number of convenience stores": [
+      0.0,
+      10.0
+    ],
+    "X5 latitude": [
+      24.93207,
+      25.01459
+    ],
+    "X6 longitude": [
+      121.47353,
+      121.56627
+    ]
+  },
+  "sklearn_version": "1.6.1"
+}
